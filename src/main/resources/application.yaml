@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: caffeine-cache-sample
+  datasource:
+    url: jdbc:mysql://localhost:3306/library
+    username: root
+    password: 12345
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
